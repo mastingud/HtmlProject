@@ -1,0 +1,114 @@
+header{
+    width: 100%;
+    height: 120px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: xxx-large;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+h2{
+    margin-top:20px;
+    font-family: 'royal fighter';
+    margin-left: 40%;
+    text-align: center;
+    color: whitesmoke;
+
+}
+#article1{
+    width: 100%;
+    height: 300px;
+    background-color: midnightblue;
+    margin-bottom: 10px;
+}
+#article2{
+    width: 100%;
+    height: 300px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: whitesmoke;
+}
+
+aside{
+    margin-left: auto;
+    width: 25%;
+    height:615px;
+    display: flex;
+    margin-left: auto;
+    background-color: midnightblue;
+    color: whitesmoke;  
+}
+
+footer{
+    width: 100%;
+    background-color: midnightblue;
+    margin-top: 10px;
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+    text-align: center;
+    clear: both;
+	color: #ffffff;
+	height: 30px;
+}
+
+.gambar{
+	height: 250px;
+    width: 350px;
+    
+}
+
+.kartu1{
+    width: 400px;
+    height: 250px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.card2{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 290px;
+    margin-left: 12px;
+}
+
+nav{
+	clear: both;
+	color: #ffffff;
+	background-color: cornflowerblue;
+    height: 30px;
+    margin-left: 40%;
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;}
+nav li {
+	display: inline;
+	margin-right: 40px;}
+nav li a {
+	color: #ffffff;}
+nav li a:hover, nav li a.current {
+    color: #000000;
+}
+
+.atas{
+    display: flex;
+}
+
+.tulisan{
+    margin-top:50px;
+    font-family: 'Bahnschrift SemiBold';
+    margin-left: 125%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+

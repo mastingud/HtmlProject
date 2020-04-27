@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    <title>PORTOFOLIO</title>
+</head>
+<body>
+    <header>
+        <h1> <font face="Royal Fighter">Portofolio Dhio Reza</font></h1>
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+    <main class="container-fluid">
+        <div class="col">
+        <article id="article1" class="row">
+            <div class="atas">
+            <div class="card">
+                <div class="card-body kartu1">
+                    <font face="Royal Fighter">StarMarker</font>
+                    <video width="320" height="240" controls autoplay>
+                        <source src="StarMarker.mp4" type="video/mp4">
+                </div>
+            </div>   
+            <div class="tulisan">
+                <p id="demo">One Piece</p>
+                 <button onclick="Ganti()">Klik</button>
+                <script>
+                function Ganti() {
+                 document.getElementById("demo").innerHTML = "All Blue!";
+                }
+                </script>
+            </div>
+            </div> 
+        </article>
+            <article id="article2" class="row">
+            <h2> Sejarah HTML</h2>
+            <p><font face="Bahnschrift SemiBold">Hypertext Markup Language atau yang biasa disingkat HTML pertama kali diciptakan dan dikembangkan oleh Tim Berners-Lee pada awal tahun 1990-an yang pada saat itu masih bekerja di CERN. HTML diciptakan dengan tujuan sebagai cara sederhana namun efektif untuk mengkodekan dokumen elektronik. HTML pertama kali dipopulerkan  dengan menggunakan browser Mosaic.</font></p>
+            </article>
+        </div>
+
+            <aside class="col-4">
+                <div class="card2" style="width: 24rem;">
+                    <img src="allemblem.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-text">
+                        <p> <font face="Bahnschrift SemiBold">Hello, my name is Dhio Reza Prasetyo and this is my Bio.</font> <p/>
+                        <p> <font face="Bahnschrift SemiBold">My name is Dhio Reza Prasetyo, you can call me with Dhio, Reza, or whatever you want to call me what.</font></p> 
+                        <p> <font face="Bahnschrift SemiBold">I was born at December 7th 1997 in one of the hospitals in Jakarta.</font> </p>
+                    </div>
+                    </div>
+                  </div>
+            
+            </aside>
+    </main>
+</body>
+
+    <footer>
+        &copy; 2020, Dhio Reza
+    </footer>
+
+</html>
